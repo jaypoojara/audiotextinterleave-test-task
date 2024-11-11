@@ -1,0 +1,26 @@
+const colors = {
+  primary: '#DBA604',
+  backgroundLight: '#FAFAFA',
+  headerBackground: '#F6F6F9',
+  borderLight: '#E1E4FF',
+  shadow: '#C2C3CB',
+  flagContainerBackground: '#FDFDFF',
+  cardBorder: '#F2EEF6',
+  activeCardBackground: '#ECEEFF',
+  languageBadgeBorder: '#E7E7E7',
+  languageBadgeBackground: '#FFFFFF',
+  languageText: '#525252',
+  primaryText: '#1B1B1B',
+  divider: '#F6F6F6',
+  secondaryText: '#85838E',
+  activeSecondaryText: 'rgba(27, 27, 27, 0.6)',
+  progressBarBackground: 'rgba(135, 148, 255, 0.2)',
+  timerText: 'rgba(0, 0, 0, 0.5)',
+  gradientStart: 'rgba(237, 237, 243, 0.8)',
+  gradientMiddle: 'rgba(241, 241, 246, 0.7)',
+  gradientEnd: 'rgba(249, 249, 249, 0.55)',
+  whiteOpacity80: 'rgba(255, 255, 255, 0.8)',
+  error: '#FF6565',
+};
+
+export default colors;
