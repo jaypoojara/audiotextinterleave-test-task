@@ -14,7 +14,6 @@ import {TranscriptResult} from 'types';
 import colors from '@theme/colors';
 import {formatTime} from '@utils/HelperUtils';
 import {styles} from './styles';
-import FullScreenContainer from '@components/FullScreenContainer';
 import {Images} from '@assets/images';
 import useHomeScreen from '@hooks/useHomeScreen';
 
@@ -87,7 +86,7 @@ const HomeScreen = () => {
   );
 
   return (
-    <FullScreenContainer>
+    <View style={styles.container}>
       <SafeAreaView style={styles.headerContainer}>
         <View style={styles.flagContainer}>
           <Image source={Images.us} style={styles.flagImage} />
@@ -153,7 +152,7 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
       </SafeAreaView>
-    </FullScreenContainer>
+    </View>
   );
 };
 
