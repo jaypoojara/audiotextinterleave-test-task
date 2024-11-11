@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 import React, {useCallback} from 'react';
 import LinearGradient from 'react-native-linear-gradient';
-
 import Animated from 'react-native-reanimated';
 import {TranscriptResult} from 'types';
 import colors from '@theme/colors';
